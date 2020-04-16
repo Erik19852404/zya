@@ -1,5 +1,8 @@
-export class TeamMembers {
-  name: "tester";
-  photo: "path to photo";
-  about: "text";
-}
+export const teamMembers = [
+  {
+    name: 'tester',
+    photo: 'assets/photo/photo_1.png',
+    photo_description: 'photo_1',
+    about: 'text',
+  },
+];

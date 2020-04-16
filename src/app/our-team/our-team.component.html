@@ -1,9 +1,10 @@
 <div id="our-team">
   <h2>
-    Наша команда:
+    Команда:
   </h2>
-  <div id="team-mate">
-    <p>text</p>
-    <img src="">
+  <div id="team-mate" *ngFor="let teamMember of teamMembers">
+    <h3>{{teamMember.name}}</h3>
+    <img src={{teamMember.photo}} alt={{teamMember.photo_description}}>
+    <p>{{teamMember.about}}</p>
   </div>
 </div>
