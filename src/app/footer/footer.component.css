@@ -1,0 +1,13 @@
+*{
+  background-color: rgb(231, 25, 25);
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 98%;
+  bottom: 0; 
+}
+
+p{
+  margin: 0;
+}

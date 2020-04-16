@@ -1,0 +1,16 @@
+*{
+  overflow: hidden;
+  margin: 10px;
+}
+
+#our-team {
+  background-color: rgb(111, 133, 12);
+}
+
+#team-mate{
+  background-color: rgb(197, 233, 38);
+}
+
+h2 {
+  margin: 4px;
+}
