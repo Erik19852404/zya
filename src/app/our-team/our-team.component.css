@@ -14,3 +14,8 @@
 h2 {
   margin: 4px;
 }
+
+img {
+  max-height: 150px;
+  max-width: 80px
+}
