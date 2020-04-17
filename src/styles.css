@@ -72,15 +72,23 @@ label {
 
 /* Button */
 .button, button {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   padding: 8px 16px;
+  font-size: 14px; 
+  line-height: 10px; 
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
   border-radius: 2px;
-  font-size: 14px;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgb(18, 90, 22);
   cursor: pointer;
-  background-color: #1976d2;
-  color: white;
-  border: none;
+  height: 30px;
+  background-color: #2dc03a; 
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36c722), to(#355a35));
+  border: 1px solid #ade610;
+  margin:3px;
 }
 
 .button:hover, button:hover {
@@ -93,14 +101,6 @@ label {
   cursor: auto;
 }
 
-/* Fancy Button */
-
-.fancy-button {
-  background-color: white;
-  color: #1976d2;
-}
-
-.fancy-button i.material-icons {
-  color: #1976d2;
-  padding-right: 4px;
+app-top-bar {
+  cursor: pointer;
 }

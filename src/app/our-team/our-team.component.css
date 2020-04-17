@@ -1,10 +1,12 @@
 *{
   overflow: hidden;
-  margin: 10px;
+  margin: 5px;
 }
 
 #our-team {
   background-color: rgb(111, 133, 12);
+  margin: 2px;
+  padding: 2px;
 }
 
 #team-mate{
@@ -12,10 +14,27 @@
 }
 
 h2 {
-  margin: 4px;
+  margin: 2px;
 }
 
 img {
-  max-height: 150px;
-  max-width: 80px
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  padding: 5% 10% 5% 5%;
+  float: left;
+}
+
+button {
+  font-size: 10pt;
+  float: inherit;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 1% 5% 1% 5%;
+}
+
+p {
+  float: rigth;
+  padding: 5% 10% 5% 5%;
 }

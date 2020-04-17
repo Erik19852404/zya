@@ -3,6 +3,7 @@
   height: 44px;
   background-color: #348a21;
   padding: 0px;
+  margin: 3px 0px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,24 +11,11 @@
   font-weight: bold;
 }
 
-button {
-  display: inline-block;
-  padding: 4px 12px; 
-  font-size: 60%;  
-  line-height: 10px; 
-  text-align: center;
-  vertical-align: middle;
-
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: rgb(18, 90, 22);
-  cursor: pointer;
-  height: 30px;
-  background-color: #2dc03a; 
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#36c722), to(#355a35));
-  border: 1px solid #ade610;
-  margin:3px;
-}
-
 .long-text{
   font-size: 55%;
+}
+
+button {
+  margin: 3px;
+  padding: 0px 10px 0px 10px;
 }
