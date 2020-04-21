@@ -7,5 +7,5 @@
     <img src={{teamMember.photo}} alt={{teamMember.photo_description}}>
     <p>{{teamMember.about}}</p>
   </div>
-    <button id='button-detailes' type="button" routerLink="/detailes">Подробнее</button>
+    <button id='button-detailes' type="button" routerLink="/detailes" (click)="activateBtn('details')" [@btnTrigger]="getActiveBtn()=='details' ? 'activated' : 'deactivated'">Подробнее</button>
 </div>

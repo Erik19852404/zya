@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { BtnMgmtService } from '../btn-mgmt.service';
 
 @Component({
   selector: 'app-top-bar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
-  constructor() { }
+  selectedBtn;
+
+  constructor(
+    private btnMgmt: BtnMgmtService,
+  ) { }
 
   ngOnInit() {
+  }
+
+  deactivateBtns(){
+    this.btnMgmt.activateBtn('');
   }
 
 }
