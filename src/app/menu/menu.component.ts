@@ -16,7 +16,7 @@ import {
   animations: [
     trigger('btnTrigger', [
       state('activated', style({
-        color:  'blue',
+        color:  'white',
         opacity: 0.5,
       })),
       state('deactivated', style({
@@ -26,7 +26,7 @@ import {
         animate('0.5s 100ms ease-in-out')
       ]),    
       transition('deactivated => activated', [
-        animate('0.4s'),
+        animate('0.3s ease-out'),
       ]),    
     ]),
   ]
