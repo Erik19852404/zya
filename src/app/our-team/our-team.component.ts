@@ -25,7 +25,7 @@ import { teamMembers } from '../team-members';
       state('deactivated', style({
         opacity: 1,
       })),
-      transition('activated => deactivated', [
+      transition('* => deactivated', [
         animate('0.5s 100ms ease-in-out')
       ]),    
       transition('deactivated => activated', [
