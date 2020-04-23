@@ -14,14 +14,18 @@ keyframes,
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.css'],
   animations: [
-    trigger('divTrigger', [
-      transition('* <=> *', [
-        animate('1s ease-in-out', keyframes([
-          style({ opacity: 0 }),
-          style({ opacity: 1 }),
-        ]))
-      ]),      
-    ]),
+    trigger('flyInOut', [
+      state('in', style({ transform: 'translateX(0)' })),
+      transition(':enter', [
+        style({ 
+          opacity: 0,
+          transform: 'translateX(5%)' }),
+        animate(400)
+      ]),
+      transition(':leave', [
+        animate(400, style({ transform: 'translateX(-5%)' }))
+      ])
+    ])
   ]
 })
 export class ContactsComponent implements OnInit {

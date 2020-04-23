@@ -14,14 +14,18 @@ keyframes,
   templateUrl: './detailes.component.html',
   styleUrls: ['./detailes.component.css'],
   animations: [
-    trigger('divTrigger', [
-      transition('* <=> *', [
-        animate('1s ease-in-out', keyframes([
-          style({ opacity: 0 }),
-          style({ opacity: 1 }),
-        ]))
-      ]),      
-    ]),
+    trigger('flyInOut', [
+      state('in', style({ transform: 'translateY(0)' })),
+      transition(':enter', [
+        style({ 
+          opacity: 0,
+          transform: 'translateY(100%)' }),
+        animate(800)
+      ]),
+      transition(':leave', [
+        animate(8000, style({ transform: 'translateY(-100%)' }))
+      ])
+    ])
   ]
 })
 export class DetailesComponent implements OnInit {
