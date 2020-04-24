@@ -2,16 +2,15 @@
   display: flex;
   width: 100%;
   height: 68px;
-  background-color: #eaee0b;
+  background-color: #767738;
   padding: 16px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eaee0b), to(#f5f3a3));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#a6a77a), to(#272fa0));
 }
 
 h1 {
-  color: rgb(186, 189, 22);
   margin: 0px;
   justify-content: center;
 }

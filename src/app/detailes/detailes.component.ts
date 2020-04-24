@@ -20,10 +20,10 @@ keyframes,
         style({ 
           opacity: 0,
           transform: 'translateY(100%)' }),
-        animate(800)
+        animate('400ms ease-out')
       ]),
       transition(':leave', [
-        animate(8000, style({ transform: 'translateY(-100%)' }))
+        animate(400, style({ transform: 'translateY(-100%)' }))
       ])
     ])
   ]

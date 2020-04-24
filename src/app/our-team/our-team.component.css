@@ -4,13 +4,12 @@
 }
 
 #our-team {
-  background-color: rgb(111, 133, 12);
   margin: 2px;
   padding: 2px;
 }
 
 #team-mate{
-  background-color: rgb(197, 233, 38);
+  background-color: rgb(49, 59, 4);
 }
 
 h2 {
@@ -21,8 +20,13 @@ img {
   max-width: 50%;
   height: auto;
   width: auto;
-  padding: 5% 10% 5% 5%;
-  float: left;
+  padding: 0;
+  float: left; 
+  border: 0.8vh solid transparent;
+  border-image-source: url(https://user-images.githubusercontent.com/175836/38607092-1198f110-3d78-11e8-9982-ad39e0faf6d4.png);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 0.8vh;
 }
 
 button {

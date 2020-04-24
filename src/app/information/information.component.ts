@@ -19,11 +19,11 @@ keyframes,
       transition('void => *', [
         style({ 
           opacity: 0,
-          transform: 'translateX(-100%)' }),
-        animate(500)
+          transform: 'translateX(-50%)' }),
+        animate('300ms ease-in')
       ]),
       transition('* => void', [
-        animate(500, style({ transform: 'translateX(100%)' }))
+        animate(300, style({ transform: 'translateX(50%)' }))
       ])
     ])
   ]
