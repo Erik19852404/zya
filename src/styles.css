@@ -25,11 +25,11 @@ router-outlet + *  {
 /* Text */
 
 h1 {
-  font-size: 32px;
+  font-size: 5vh;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 3vh;
 }
 
 h1, h2 {
@@ -37,7 +37,7 @@ h1, h2 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 2vh;
 }
 
 /* Hyperlink */
@@ -55,7 +55,7 @@ a:hover {
 /* Input */
 
 input {
-  font-size: 14px;
+  font-size: 2vh;
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
@@ -63,7 +63,7 @@ input {
 }
 
 label {
-  font-size: 12px;
+  font-size: 2vh;
   font-weight: bold;
   margin-bottom: 4px;
   display: block;
@@ -74,7 +74,7 @@ label {
 .button, button {
   display: inline-block;
   padding: 8px 16px;
-  font-size: 14px; 
+  font-size: 2vh; 
   line-height: 10px; 
   text-align: center;
   vertical-align: middle;

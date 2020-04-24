@@ -26,12 +26,12 @@ img {
 }
 
 button {
-  font-size: 10pt;
+  font-size: 2vh;
   float: inherit;
   max-width: 100%;
   height: auto;
   width: auto;
-  padding: 1% 5% 1% 5%;
+  padding: 2% 5% 2% 5%;
 }
 
 p {
