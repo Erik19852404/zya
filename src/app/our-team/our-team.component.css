@@ -38,7 +38,7 @@ button {
   padding: 2% 5% 2% 5%;
 }
 
-p {
+p, ul, ol, li {
   float: rigth;
   padding: 5% 10% 5% 5%;
 }
