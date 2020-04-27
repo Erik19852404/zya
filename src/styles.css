@@ -81,7 +81,6 @@ label {
   font-size: 2vh; 
   color: #a7e8f8; 
   font-family: 'Julius Sans One', sans-serif; 
-  font-weight: bold; 
   margin: 0 0 24px; 
   text-shadow: 1px 1px 1px #082b34;
   line-height: 10px; 
@@ -98,8 +97,7 @@ label {
 }
 
 .button:hover, button:hover {
-  opacity: 0.8;
-  font-weight: normal;
+  font-weight: bolder;
 }
 
 .button:disabled, button:disabled {
@@ -128,4 +126,13 @@ a:hover { color: #a7e8f8; text-decoration: underline; }
 div {
   background-color: rgb(82, 104, 50);
   opacity: 0.9;
+}
+
+.content{
+  height: 100%;
+  margin: 20px 3px 3px 5px;
+  padding: 5px;  
+  float:left;
+  width: 50%;
+  opacity: 1;
 }
