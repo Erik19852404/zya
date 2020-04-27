@@ -11,55 +11,14 @@
 body {
   margin: 0;
   background-color: #144679;
-  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/background.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/background-main.jpg");
   background-repeat:no-repeat;
   background-size: 100% 200%;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
 }
 
 router-outlet + *  {
   padding: 0 16px;
 }
-
-/* Text */
-
-h1 {
-  font-size: 4vh;
-}
-
-h2 {
-  font-size: 3vh;
-}
-
-h3 {
-  font-size: 2vh;
-}
-
-h1, h2 {
-  font-weight: lighter;
-}
-
-p {
-  font-size: 2vh;
-}
-
-/* Hyperlink */
-
-a {
-  cursor: pointer;
-  color: #1976d2;
-  text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.8;
-}
-
-/* Input */
 
 input {
   font-size: 2vh;
@@ -112,19 +71,55 @@ app-top-bar {
   cursor: pointer;
 }
 
-h1 { color: #CEF0D4; font-family: 'Rouge Script', cursive; font-weight: normal; margin: 0; text-align: center; text-shadow: 2px 2px 4px #05171b; }
+h1 { 
+  font-size: 3.5vh;
+  color: #CEF0D4; 
+  font-family: 'Rouge Script', cursive; 
+  font-weight: normal; 
+  margin: 0; 
+  text-align: center; 
+  text-shadow: 2px 2px 4px #05171b; 
+}
 
+h2 {
+  font-size: 2.5vh;
+}
 
-h2, h3 { color: #a7e8f8; font-family: 'Julius Sans One', sans-serif; font-weight: bold;  margin: 0 0 24px; text-shadow: 1px 1px 1px #082b34; }
+h3 {
+  font-size: 2vh;
+}
 
+h1, h2 {
+  font-weight: lighter;
+}
 
-p, li { color: #FFFFFF; font-family: 'Carme', sans-serif; line-height: 3vh; margin: 0 0 0px; }
+h2, h3 { 
+  color: #a7e8f8; 
+  font-family: 'Julius Sans One', sans-serif; 
+  font-weight: bold;  
+  margin: 0 0 24px; 
+  text-shadow: 1px 1px 1px #082b34; 
+}
 
+p, li { 
+  color: #FFFFFF; 
+  font-family: 'Carme', sans-serif; 
+  line-height: 3vh; 
+  margin: 0 0 0px; 
+  font-size: 2vh;
+}
 
-a { color: #CEF0D4; text-decoration: underline; }
+a { 
+  text-decoration: underline; 
+  cursor: pointer;
+  color: #1976d2;
+}
 
-
-a:hover { color: #a7e8f8; text-decoration: underline; }
+a:hover { 
+  color: #a7e8f8; 
+  text-decoration: underline;
+  opacity: 0.8;
+}
 
 div {
   background-color: rgb(82, 104, 50);
@@ -138,4 +133,9 @@ div {
   float:left;
   width: 50%;
   opacity: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
 }

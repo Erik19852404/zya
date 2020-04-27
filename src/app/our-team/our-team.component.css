@@ -29,15 +29,6 @@ img {
   border-image-width: 0.8vh;
 }
 
-button {
-  font-size: 2vh;
-  float: inherit;
-  max-width: 100%;
-  height: auto;
-  width: auto;
-  padding: 2% 5% 2% 5%;
-}
-
 p, ul, ol, li {
   float: rigth;
   padding: 0% 2% 2% 2%;

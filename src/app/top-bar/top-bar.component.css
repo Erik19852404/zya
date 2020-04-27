@@ -5,7 +5,8 @@
   background-color: #767738;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/top-bar.jpg");  
   background-repeat:no-repeat;
-  background-size: 100% 200%;
+  background-size: 100% 100%;
+  opacity: 0.8;
   padding: 16px;
   flex-direction: row;
   justify-content: space-between;
