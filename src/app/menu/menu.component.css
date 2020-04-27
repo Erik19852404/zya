@@ -17,3 +17,7 @@ button{
   max-width: 40px;
   max-height: 40px;
 }
+
+#home-btn:hover{  
+  font-size: 230%;
+}
