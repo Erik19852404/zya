@@ -1,13 +1,14 @@
 *{
-  background-color: rgb(231, 25, 25);
+  background-color: rgb(67, 113, 197);
   margin: 0;
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 98%;
+  top: 97%;
   bottom: 0; 
 }
 
 p{
   margin: 0;
+  padding: 0; 
 }

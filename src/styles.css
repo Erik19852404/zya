@@ -10,7 +10,10 @@
 
 body {
   margin: 0;
-  background-color: #1976d2
+  background-color: #144679;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/background.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 200%;
 }
 
 .container {
