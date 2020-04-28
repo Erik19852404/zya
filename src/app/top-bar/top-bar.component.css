@@ -11,6 +11,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  
+  border: 0.8vh solid transparent;
+  border-image-source: url(https://us.123rf.com/450wm/tokhiti/tokhiti2003/tokhiti200300098/143004500-abstract-romantic-border-with-leaves-.jpg?ver=6);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 0.8vh;
 }
 
 h1 {

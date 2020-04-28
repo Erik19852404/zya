@@ -121,7 +121,12 @@ a:hover {
 
 div {
   background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sand_74190-171.jpg);
-  opacity: 0.85;
+  opacity: 0.85;  
+  border: 0.8vh solid transparent;
+  border-image-source: url(https://us.123rf.com/450wm/tokhiti/tokhiti2003/tokhiti200300098/143004500-abstract-romantic-border-with-leaves-.jpg?ver=6);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 0.8vh;
 }
 
 .content{
