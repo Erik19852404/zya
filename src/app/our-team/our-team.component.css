@@ -1,7 +1,5 @@
 *{
   overflow: hidden;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
 }
 
 h3, h2 {
@@ -22,7 +20,7 @@ img {
 p, ul, ol, li {
   float: rigth;
   padding: 0 0 0 0;
-  margin: 1vh 1vh 1vh 1vhvh;
+  margin: 1vh 0 1vh 1vh;
 }
 
 button {
@@ -37,5 +35,5 @@ button {
   width: auto;
   float: left; 
   border: none;
-  margin: 1vh 2vh 1vh 1.5vh;
+  margin: 1vh 1vh 1vh 1.5vh;
 }

@@ -47,13 +47,13 @@ label {
   border-radius: 9px;
   font-family: 'Julius Sans One', sans-serif; 
   margin: 0 0 24px; 
-  text-shadow: 1px 1px 1px #082b34;
+  text-shadow: 1px 1px 1px #4da4b9;
   line-height: 10px; 
   text-align: center;
   vertical-align: middle;
   align-items: center;
   cursor: pointer;
-  height: 30px;
+  height: 5vh;
 }
 
 .button:hover, button:hover {
@@ -121,7 +121,7 @@ a:hover {
 
 div {
   background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sand_74190-171.jpg);
-  opacity: 0.85;  
+  opacity: 0.9;  
   border: 0.1vh solid transparent;
   border-color: rgb(138, 188, 229);
   border-radius: 5%;
@@ -130,7 +130,7 @@ div {
 .content{
   height: 100%;
   margin: 3vh 1vh 0 1vh;
-  padding: 0.5vh 0.5vh 0.5vh 2vh;  
+  padding: 1vh 0.5vh 1vh 2vh;  
   float:left;
   width: 50%;
 }

@@ -12,12 +12,9 @@ button{
 }
 
 #home-btn {
-  font-size: 200%;
-  max-width: 40px;
-  max-height: 40px;
-  padding: 1vh 1vh 3vh 0.8vh;
+  width: 5vh;
+  height: 5vh;
 }
 
 #home-btn:hover{  
-  font-size: 230%;
 }
