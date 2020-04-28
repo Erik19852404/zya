@@ -71,12 +71,12 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: #CEF0D4; 
+  color: rgb(241, 250, 243); 
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   margin: 0; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #05171b; 
+  text-shadow: 2px 2px 4px #105969; 
 }
 
 h2 {
@@ -92,19 +92,20 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: #3d7aeb; 
+  color: #269118; 
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
   margin: 0 0 24px; 
-  text-shadow: 1px 1px 1px #082b34; 
+  text-shadow: 1px 1px 1px #f5dd9c; 
 }
 
 p, li { 
-  color: rgb(1, 48, 92); 
+  color: rgb(76, 173, 89); 
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
   font-size: 2vh;
+  font-weight: bold;
 }
 
 a { 
@@ -114,9 +115,10 @@ a {
 }
 
 a:hover { 
-  color: #d5e9ee; 
+  color: #10b5df; 
   text-decoration: underline;
   opacity: 0.8;
+  font-weight: bold;
 }
 
 div {
