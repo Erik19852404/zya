@@ -1,5 +1,5 @@
 *{
-  background-image: linear-gradient(rgb(142, 195, 245),rgb(226, 226, 193));
+  background-image: linear-gradient(rgb(240, 245, 196),rgb(161, 209, 169));
   margin: 0;
   width: 100%;
   overflow: hidden;
@@ -11,6 +11,6 @@
 p{
   margin: 0;
   padding: 0.5vh; 
-  color: rgb(110, 94, 252);
+  color: rgb(17, 117, 17);
   font-size: 1.5vh;
 }

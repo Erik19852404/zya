@@ -12,24 +12,38 @@
   opacity: 1;
 }
 
-h2 {
-  margin: 2px;
+h3, h2 {
+  margin: 0.5vh 0vh 0.5vh 4vh;
 }
 
 img {
-  max-width: 30%;
+  max-width: 100%;
   height: auto;
   width: auto;
-  padding: 0;
-  float: left; 
-  border: 0.8vh solid transparent;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: 0.3vh solid transparent;
   border-image-source: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/border-with-leaves-.jpg);
   border-image-repeat: round;
   border-image-slice: 30;
-  border-image-width: 0.8vh;
+  border-image-width: 0.3vh;
 }
 
 p, ul, ol, li {
   float: rigth;
   padding: 0% 2% 2% 2%;
+}
+
+button {
+  max-width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 4vh 0 0.5vh;
+}
+
+#picture-container {  
+  max-width: 37%;
+  height: auto;
+  width: auto;
+  float: left; 
+  border: none;
 }
