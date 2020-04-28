@@ -15,7 +15,7 @@ button{
   font-size: 200%;
   max-width: 40px;
   max-height: 40px;
-  padding: 0.5vh 1vh 1vh 1vh;
+  padding: 1vh 1vh 3vh 0.8vh;
 }
 
 #home-btn:hover{  

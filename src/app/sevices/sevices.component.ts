@@ -18,7 +18,7 @@ keyframes,
       transition('* <=> *', [
         animate('1s ease-in-out', keyframes([
           style({ opacity: 0 }),
-          style({ opacity: 1 }),
+          style({ opacity: 0.8 }),
         ]))
       ]),      
     ]),
