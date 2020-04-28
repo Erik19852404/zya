@@ -1,9 +1,8 @@
 div {
   width: 100%;
   margin: 1vh 0vh 0vh 0vh;
+  padding: 1vh 1vh 1vh 1vh;
   align-items: center; 
-  background-image: linear-gradient(rgb(22, 45, 87),rgb(110, 165, 236));
-  opacity: 0.8;
 }
 
 button{
@@ -16,6 +15,7 @@ button{
   font-size: 200%;
   max-width: 40px;
   max-height: 40px;
+  padding: 0.5vh 1vh 1vh 1vh;
 }
 
 #home-btn:hover{  

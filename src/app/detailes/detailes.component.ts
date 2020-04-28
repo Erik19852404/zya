@@ -9,6 +9,8 @@ keyframes,
   //..
 } from '@angular/animations';
 
+import { teamMembers } from '../team-members';
+
 @Component({
   selector: 'app-detailes',
   templateUrl: './detailes.component.html',
@@ -29,6 +31,7 @@ keyframes,
   ]
 })
 export class DetailesComponent implements OnInit {
+  teamMembers = teamMembers;
 
   constructor(
   ) { }

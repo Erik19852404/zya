@@ -1,6 +1,6 @@
-<div class="content" id="div-detailes" [@flyInOut]="True ? 'activated' : 'deactivated'">
+<div class="content" id="div-detailes" [@flyInOut]="True ? 'activated' : 'deactivated'" *ngFor="let member of teamMembers">
   <h2>Немного о себе:</h2>
   <p>
-    Информация
+    {{memberfull_story}}
   </p>  
 </div>
