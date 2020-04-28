@@ -100,7 +100,7 @@ h2, h3 {
 }
 
 p, li { 
-  color: rgb(25, 101, 172); 
+  color: rgb(1, 48, 92); 
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
@@ -120,7 +120,7 @@ a:hover {
 }
 
 div {
-  background-image: linear-gradient(rgb(142, 195, 245),rgb(207, 168, 117));
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/water-3555009_960_720.jpg);
   opacity: 0.85;
 }
 
