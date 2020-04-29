@@ -7,6 +7,7 @@ import {
   style,
   animate,
   transition,
+  keyframes,
   //..
 } from '@angular/animations';
 
@@ -31,6 +32,14 @@ import { teamMembers } from '../team-members';
       transition('deactivated => activated', [
         animate('0.3s ease-out'),
       ]),    
+    ]),
+    trigger('divTrigger', [
+      transition('* <=> *', [
+        animate('100ms ease-in-out', keyframes([
+          style({ opacity: 0 }),
+          style({ opacity: 0.8 }),
+        ]))
+      ]),      
     ]),
   ]
 })

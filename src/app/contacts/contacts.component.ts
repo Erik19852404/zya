@@ -5,7 +5,7 @@ import {
   style,
   animate,
   transition,
-keyframes,
+  keyframes,
   //..
 } from '@angular/animations';
 

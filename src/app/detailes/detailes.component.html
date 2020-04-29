@@ -1,4 +1,4 @@
-<div class="content" id="div-detailes" [@flyInOut]="True ? 'activated' : 'deactivated'" *ngFor="let member of teamMembers">
+<div class="content" id="div-detailes" [@divTrigger]="True ? 'activated' : 'deactivated'" *ngFor="let member of teamMembers">
   <h2>Немного о себе:</h2>
   <p>
     {{member.full_story}}

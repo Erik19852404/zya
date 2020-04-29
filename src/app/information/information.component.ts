@@ -16,14 +16,26 @@ keyframes,
   animations: [
     trigger('flyInOut', [
       state('in', style({ transform: 'translateX(0)' })),
-      transition('void => *', [
+      transition(':enter', [
         style({ 
           opacity: 0,
           transform: 'translateX(-50%)' }),
         animate('300ms ease-in')
       ]),
-      transition('* => void', [
+      transition(':leave', [
         animate(300, style({ transform: 'translateX(50%)' }))
+      ])
+    ]),
+    trigger('flyInOut2', [
+      state('in', style({ transform: 'translateX(0)' })),
+      transition(':enter', [
+        style({ 
+          opacity: 0,
+          transform: 'translateX(5%)' }),
+        animate('200ms ease-in-out')
+      ]),
+      transition(':leave', [
+        animate(200, style({ transform: 'translateX(-5%)' }))
       ])
     ])
   ]

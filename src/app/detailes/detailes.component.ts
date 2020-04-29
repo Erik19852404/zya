@@ -16,17 +16,13 @@ import { teamMembers } from '../team-members';
   templateUrl: './detailes.component.html',
   styleUrls: ['./detailes.component.css'],
   animations: [
-    trigger('flyInOut', [
-      state('in', style({ transform: 'translateY(0)' })),
-      transition(':enter', [
-        style({ 
-          opacity: 0,
-          transform: 'translateY(100%)' }),
-        animate('400ms ease-out')
-      ]),
-      transition(':leave', [
-        animate(400, style({ transform: 'translateY(-100%)' }))
-      ])
+    trigger('divTrigger', [
+      transition('* <=> *', [
+        animate('1s ease-in-out', keyframes([
+          style({ opacity: 0 }),
+          style({ opacity: 0.8 }),
+        ]))
+      ]),      
     ])
   ]
 })
