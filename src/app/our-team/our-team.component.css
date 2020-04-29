@@ -31,7 +31,8 @@ button {
 }
 
 #picture-container {  
-  max-width: 45%;
+  max-width: 15%;
+  min-width: 12vh;
   height: auto;
   width: auto;
   float: left; 
