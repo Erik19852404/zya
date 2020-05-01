@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import {
   trigger,
   state,
@@ -42,7 +43,9 @@ keyframes,
 })
 export class InformationComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit() {
   }
@@ -58,8 +61,17 @@ export class InformationComponent implements OnInit {
   OpenVK(){
     window.open(
       'https://vk.com/share.php?url=http://mysite.com'+encodeURIComponent(location.href), 
-      'facebook-share-dialog', 
+      'Поделиться',
       'width=100%,height=100%'); 
+    return false;
+  }
+
+  OpenOK(){
+    let hrefOK = 'https://connect.ok.ru/offer?url=' + window.location.href;
+    window.open(
+      hrefOK+encodeURIComponent(location.href), 
+      'Поделиться',
+      'resizable,scrollbars,status'); 
     return false;
   }
 }

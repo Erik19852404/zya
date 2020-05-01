@@ -14,7 +14,14 @@ li {
 #share {
   width: 30px;
   height: 30px;
-  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/fb_icon_325x325.png");
+  background-color: blue;
   background-size: 100% 100%;
   cursor: pointer;
+  float: left;
+  border-radius: 5px;
+  margin: 1vh;
+}
+
+#share:hover {
+  opacity: 0.5;
 }
