@@ -75,8 +75,8 @@ export class InformationComponent implements OnInit {
     return false;
   }
 
-  OpenTelegram(){
-    let hrefTel = 'https://t.me/share/url?url=' + window.location.href;
+  OpenWhatsApp(){
+    let hrefTel = 'whatsapp://send?text=' + window.location.href;
     window.open(
       hrefTel+encodeURIComponent(location.href), 
       'Поделиться',
