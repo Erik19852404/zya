@@ -19,7 +19,7 @@ li {
   cursor: pointer;
   float: left;
   border-radius: 5px;
-  margin: 1vh;
+  margin: 0.1vh;
 }
 
 #share:hover {

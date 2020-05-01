@@ -52,17 +52,17 @@ export class InformationComponent implements OnInit {
 
   OpenFB(){
     window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
-      'facebook-share-dialog', 
-      'width=100%,height=100%'); 
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'Поделиться',
+      'resizable,scrollbars,status'); 
     return false;
   }
 
   OpenVK(){
     window.open(
-      'https://vk.com/share.php?url=http://mysite.com'+encodeURIComponent(location.href), 
+      'https://vk.com/share.php?url=http://mysite.com'+encodeURIComponent(location.href),
       'Поделиться',
-      'width=100%,height=100%'); 
+      'resizable,scrollbars,status'); 
     return false;
   }
 
@@ -70,6 +70,15 @@ export class InformationComponent implements OnInit {
     let hrefOK = 'https://connect.ok.ru/offer?url=' + window.location.href;
     window.open(
       hrefOK+encodeURIComponent(location.href), 
+      'Поделиться',
+      'resizable,scrollbars,status'); 
+    return false;
+  }
+
+  OpenTelegram(){
+    let hrefTel = 'https://t.me/share/url?url=' + window.location.href;
+    window.open(
+      hrefTel+encodeURIComponent(location.href), 
       'Поделиться',
       'resizable,scrollbars,status'); 
     return false;
