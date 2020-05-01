@@ -1,14 +1,11 @@
 <div class="breafing" id="div-information" [@flyInOut]="True ? 'activated' : 'deactivated'">
   <h2>Мы поможем Вам справиться с проблемами!</h2>
-  <h3>Мотивирующая рекламная информация!</h3>
-  <a href="#" 
-  onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
-      'facebook-share-dialog', 
-      'width=626,height=436'); 
-    return false;">
-  Share on Facebook
-</a>
+  <h3>Мотивирующая рекламная информация!</h3> 
+
+<div>
+  <span><div id="share" (click)="OpenFB()" title="Поделиться FB" style="float: left"></div></span>
+  <span><div id="share" (click)="OpenVK()" title="Поделиться VK" style="float: left"></div></span>
+</div>
+
 </div>
 <app-our-team></app-our-team>

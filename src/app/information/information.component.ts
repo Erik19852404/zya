@@ -47,4 +47,19 @@ export class InformationComponent implements OnInit {
   ngOnInit() {
   }
 
+  OpenFB(){
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=100%,height=100%'); 
+    return false;
+  }
+
+  OpenVK(){
+    window.open(
+      'https://vk.com/share.php?url=http://mysite.com'+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=100%,height=100%'); 
+    return false;
+  }
 }
