@@ -38,7 +38,7 @@ label {
 /* Button */
 .button, button {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 1vh 2vh 1vh 2vh;
   font-size: 1.6vh; 
   color: #eff1f1; 
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/brand-blue-font-blue-button.jpg");
@@ -53,7 +53,8 @@ label {
   vertical-align: middle;
   align-items: center;
   cursor: pointer;
-  height: 5vh;
+  max-height: 9vh;
+  min-height: 2vh;
 }
 
 .button:hover, button:hover {
