@@ -83,4 +83,13 @@ export class InformationComponent implements OnInit {
       'resizable,scrollbars,status'); 
     return false;
   }
+
+  OpenTelegram(){
+    let hrefTel = 'https://t.me/share/url?url=' + window.location.href;
+    window.open(
+      hrefTel+encodeURIComponent(location.href), 
+      'Поделиться',
+      'resizable,scrollbars,status'); 
+    return false;
+  }
 }
