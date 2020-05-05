@@ -3,7 +3,7 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   top: 97%;
   bottom: 0; 
 }
