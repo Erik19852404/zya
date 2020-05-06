@@ -148,3 +148,11 @@ div {
   display: flex;
   flex-direction: row;
 }
+
+#animated-picture {
+  width: 5vh;
+}
+
+@keyframes animated-picture-move{
+
+}
