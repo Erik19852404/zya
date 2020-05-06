@@ -150,9 +150,90 @@ div {
 }
 
 #animated-picture {
-  width: 5vh;
+  width: 100%;
+  z-index: 7;
+  animation: animated-picture-move 4s linear infinite;
+}
+
+#picture-box {
+  width: 7vh;
+  height: 7vh;
+  position: fixed;
+  top: 90vh;
+  left: 10vh;
+  z-index: 5;
+  background: none;
+  border: none;
+  animation: animated-picture-rotate 70s linear infinite;
+  
 }
 
 @keyframes animated-picture-move{
+    0%{
+      transform: scaleX(1);
+    }
+    30%{
+      transform: scaleX(0.7);
+    }
+    60%{
+      transform: scaleX(1.1);
+    }
+    90%{
+      transform: scaleX(0.8);
+    }
+    100%{
+      transform: scaleX(1);
+    }
+}
 
+
+@keyframes animated-picture-rotate{
+    0%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    25%{
+      transform: rotate(20deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    45%{
+      transform: rotate(80deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    55%{
+      transform: rotate(90deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    65%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    75%{
+      transform: rotate(-60deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    80% {
+      transform: rotate(-120deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    100%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
 }
